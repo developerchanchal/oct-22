@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey Form</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!-- Fontawsome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-section text-center">
+            <h1>Resturent Servey</h1>
+        </div>
+
+        <div class="post-header-section">
+            <div class="post-1 text-left">
+                <img src="food.png" alt="">
+            </div>
+            <div class="post-2">
+                <h4>Please Help Us Learn</h4>
+                <p>What we're doing right <br> and what we more work <br> by filling out this form</p>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <form action="#">
+                <table>
+                    <tr>
+                        <td><label for="type"><b>What type of Meal?</b></label></td>
+                        <td>
+                            <input type="checkbox" name="" id="breakfast" value="breakfast">
+                            <label for="breakfast">Breakfast</label>
+                            <input type="checkbox" name="Lunch" id="Lunch" value="lunch">
+                            <label for="Lunch">Lunch</label>
+                            <input type="checkbox" name="Dinner" id="Dinner" value="Dinner">
+                            <label for="Dinner">Dinner</label>
+                            <input type="checkbox" name="Snacks" id="Snacks" value="snacks">
+                            <label for="Snacks">Snacks</label>
+                            <input type="checkbox" name="Dine" id="Dine" value="dinein">
+                            <label for="Dine">Dine In</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="dishes"><b>What did you order?</b></label></td>
+                        <td><input type="text" name="" id="" placeholder="Food item name" required></td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td><label for=""><b>Quality of Food:</b></label></td>
+                        <td>
+                            <input type="radio" name="q1" id="q1" value="Excelent" required>
+                            <label for="q1">Excelent</label>
+                            <input type="radio" name="q1" id="q2" value="Good">
+                            <label for="q2">Good</label>
+                            <input type="radio" name="q1" id="q3" value="Fair">
+                            <label for="q3">Fair</label>
+                            <input type="radio" name="q1" id="q4" value="Poor">
+                            <label for="q4">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Portion Size:</b></label></td>
+                        <td>
+                            <input type="radio" name="portion" id="p1" value="Excelent"   required>
+                            <label for="p1">Excelent</label>
+                            <input type="radio" name="portion" id="p2" value="Good">
+                            <label for="p2">Good</label>
+                            <input type="radio" name="portion" id="p3" value="Fair">
+                            <label for="p3">Fair</label>
+                            <input type="radio" name="portion" id="p4" value="Poor">
+                            <label for="p4">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Ease of Ordering:</b></label></td>
+                        <td>
+                            <input type="radio" name="ease" id="e1" value="Excelent"  required>
+                            <label for="e1">Excelent</label>
+                            <input type="radio" name="ease" id="e2" value="Good">
+                            <label for="e2">Good</label>
+                            <input type="radio" name="ease" id="e3" value="Fair">
+                            <label for="e3">Fair</label>
+                            <input type="radio" name="ease" id="e4" value="Poor">
+                            <label for="e4">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Service:</b></label></td>
+                        <td>
+                            <input type="radio" name="service" id="s1" value="Excelent"  required>
+                            <label for="s1">Excelent</label>
+                            <input type="radio" name="service" id="s2" value="Good">
+                            <label for="s2">Good</label>
+                            <input type="radio" name="service" id="s3" value="Fair">
+                            <label for="s3">Fair</label>
+                            <input type="radio" name="service" id="s4" value="Poor">
+                            <label for="s4">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Cleaness:</b></label></td>
+                        <td>
+                            <input type="radio" name="cleaness" id="c1" value="Excelent"  required>
+                            <label for="c1">Excelent</label>
+                            <input type="radio" name="cleaness" id="c2" value="Good">
+                            <label for="c2">Good</label>
+                            <input type="radio" name="cleaness" id="c3" value="Fair">
+                            <label for="c3">Fair</label>
+                            <input type="radio" name="cleaness" id="c4" value="Poor">
+                            <label for="c4">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Overall Value:</b></label></td>
+                        <td>
+                            <input type="radio" name=" overall" id="o1" value="Excelent"  required>
+                            <label for="o1">Excelent</label>
+                            <input type="radio" name="overall" id="o2" value="Good">
+                            <label for="o2">Good</label>
+                            <input type="radio" name="overall" id="o3" value="Fair">
+                            <label for="o3">Fair</label>
+                            <input type="radio" name="overall" id="o4" value="Poor">
+                            <label for="o4">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Comments:</b></label></td>
+                        <td><textarea name="" id="" cols="30" rows="10" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>Age:</b></label></td>
+                        <td>
+                            <input type="radio" name="age" id="a1" value="18-"  required>
+                            <label for="a1">Under 18</label>
+                            <input type="radio" name="age" id="a2" value="18+">
+                            <label for="a2">18+</label>
+                            <input type="radio" name="age" id="a3" value="30+">
+                            <label for="a3">30-45</label>
+                            <input type="radio" name="age" id="a4" value="45+">
+                            <label for="a4">45+</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for=""><b>How did you know about us:</b></label></td>
+                        <td>
+                            <input type="radio" name="aboutus" id="b1" value="Excelent"  required>
+                            <label for="b1">Social Media</label>
+                            <input type="radio" name="aboutus" id="b2" value="Good">
+                            <label for="b2">Newspaper</label>
+                            <input type="radio" name="aboutus" id="b3" value="Fair">
+                            <label for="b3">Advertisement</label>
+                            <input type="radio" name="aboutus" id="b4" value="Poor">
+                            <label for="b4">Others</label>
+                        </td>
+                    </tr>
+                </table>
+                
+                <input type="submit" value="Submit" class="btn">
+                
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
